@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "repository": "tanshuai/diem-devtools",
+  "repository_id": 465540452,
+  "date": "2026-10-03",
+  "source_sha": "712034d37f9a36d199082489af38337f66c66712",
+  "entries": [
+    {
+      "original_path": ".github/workflows/ci.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/ci.yml",
+      "source_blob_sha": "bb49d7f150eb3abd6e99d2a979b2313cadbc5a90",
+      "sha256": "b47919581334e4e162162fa511126a35f5154b52c58f33ea1adcc69815a2be90",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from diem/diem-devtools",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-006"
+      ],
+      "secret_names": [],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [
+        "scripts/regenerate-readmes.sh"
+      ],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/docs.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/docs.yml",
+      "source_blob_sha": "fe1ca96cb055a18c08484259a8c157754c7ccd1e",
+      "sha256": "6fb69049e4e514dba98d74288ce7ea85e70515879c06efe0be144f2eba7143eb",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from diem/diem-devtools",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [],
+      "secret_names": [
+        "GITHUB_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/release.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/release.yml",
+      "source_blob_sha": "73adbc0920ed449ac64070b45085c44fda010114",
+      "sha256": "fcd4c3edbbfcc4187f02f2ba6c97185e611988506de578553d28dc284c49def5",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from diem/diem-devtools",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-017"
+      ],
+      "secret_names": [
+        "GITHUB_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    }
+  ],
+  "code_and_dependency_snapshots": [
+    {
+      "original_path": ".github/dependabot.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/dependabot.yml",
+      "source_blob_sha": "eaa00e782bf0e9387b433cf75741e13cc94b8b41",
+      "sha256": "0e174ca0a5f5a69ce13008134fa38a941a0cd945b45127430bdd7e13014c7cf2",
+      "original_retained": false,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "Cargo.lock",
+      "archived_path": "archive/github-actions/2026-10-03/Cargo.lock",
+      "source_blob_sha": "53869352e04128e51978fcebdb9d5164b3372a67",
+      "sha256": "79d9b9b4ae879b18bc4e28b703696f5eafc32ea36cf16b36eebb941578d71713",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "Cargo.toml",
+      "archived_path": "archive/github-actions/2026-10-03/Cargo.toml",
+      "source_blob_sha": "0f311fa9634833df98737a3e5c0604facc23283a",
+      "sha256": "470bcfad98d1a53dbbf62265e7b2e96d7562009865c0fb45502ac1fb6ac9be4b",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "scripts/regenerate-readmes.sh",
+      "archived_path": "archive/github-actions/2026-10-03/scripts/regenerate-readmes.sh",
+      "source_blob_sha": "4e698064531ca77080f969d9113fb8d50ea89c2f",
+      "sha256": "d82cdb1e0bc22d7afb3d6231fc53eb832e80d247e8e8f280d6fd8e35256d375d",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    }
+  ],
+  "upstream_preflight": {
+    "parent": "diem/diem-devtools",
+    "source_sha": "712034d37f9a36d199082489af38337f66c66712",
+    "ahead_by": 0,
+    "behind_by": 0,
+    "status": "identical",
+    "retained_runs": 0,
+    "semantic_note": "Current entrypoints reviewed individually; only inherited upstream CI/tests/releases/doc generators, no custom fork commits or live production consumer identified. No repository Actions enabling or passive alert changes."
+  },
+  "caller_check": {
+    "current_all_accessible_workflows": 286,
+    "remaining_reusable_callers": [],
+    "external_dispatch_note": "Declared dispatch/manual entrypoints recorded; entire retired source preserved. No dispatch APIs were invoked."
+  },
+  "passive_security_alerts": "No alert setting changed. Archived version-update YAML is no longer active configuration.",
+  "rollback": "Reviewed source restoration plus explicit workflow enablement; for unsafe cross-repository publishers establish an updated producer/consumer contract and guarded destination before restoring."
+}
