@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "datatest-stable",
+    "nextest/cargo-nextest",
+    "nextest/runner",
+    "nextest/metadata",
+    "quick-junit",
+]
+
+# make backtrace + color-eyre faster on debug builds
+[profile.dev.package.backtrace]
+opt-level = 3
